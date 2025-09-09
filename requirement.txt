@@ -1,2 +1,2 @@
-Gunicorn-23.0.0
+Gunicorn-20.0.0
 Python-3.10.10
