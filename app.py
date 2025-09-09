@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 import sqlite3
 
+
 app = Flask(__name__, static_folder='static', template_folder='templates') # Create a Flask application instance
 def init_db():
     conn = sqlite3.connect("formulario.db")
